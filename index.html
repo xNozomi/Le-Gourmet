@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="hero">
+        <h1 class="hero-title" style="grid-area:title">Un restaurant authentique aux saveurs locales</h1>
+        <h2 class="hero-subtitle" style="grid-area:subtitle">Découvrez une cuisine faite maison, préparée avec des produits frais.</h2>
+        <button class="menu-btn btn" style="grid-area:menu-btn">Voir le menu</button>
+        <button class="booking-btn btn" style="grid-area:booking-btn">Réserver une table</button>
+    </section>
+    <section id="about">
+        <h2 class="subtitle">Notre histoire</h2>
+        <p>Depuis plusieurs années, notre restaurant propose une cuisine généreuse et authentique,inspirée des traditions locales et préparée avec passion.</p>
+    </section>
+    <section id="menu">
+        <h2 class="subtitle">Notre menu</h2>
+        <div class="menu-container">
+            <div class="dishes-container">
+                <h3 class="container-title">Entrées</h3>
+                <div class="dish-card">
+                    <figure>
+                        <img src="assets/Images/Menu/Salade.jpg" alt="Une salade">
+                    </figure>
+                    <h4 class="dish-name">Salade fraîche</h4>
+                    <p class="dish-description">Mélange de légumes croquants de saison accompagné d'une vinaigrette maison.</p>
+                    <p class="price">6€</p>
+                </div>
+                <div class="dish-card">
+                    <figure>
+                        <img src="assets/Images/Menu/samoussa.jpg" alt="Des samoussa">
+                    </figure>
+                    <h4 class="dish-name">Samoussa maison</h4>
+                    <p class="dish-description">Feuilletés croustillants garnis d'une préparation savoureuse aux épices.</p>
+                    <p class="price">5€</p>
+                </div>
+            </div>
+            <div class="dishes-container">
+                <h3 class="container-title">Plats</h3>
+                <div class="dish-card">
+                    <figure>
+                        <img src="assets/Images/Menu/chicken.jpg" alt="un poulet rôti ">
+                    </figure>
+                    <h4 class="dish-name">Poulet rôti aux épices</h4>
+                    <p class="dish-description">Poulet tendre mariné aux épices et accompagné de légumes de saison.</p>
+                    <p class="price">14€</p>
+                </div>
+                <div class="dish-card">
+                    <figure>
+                        <img src="assets/Images/Menu/grilled fish.jpg" alt="grilled fish">
+                    </figure>
+                    <h4 class="dish-name">Poisson grillé</h4>
+                    <p class="dish-description">Filet de poisson grillé à la perfection, servi avec son accompagnement du jour.</p>
+                    <p class="price">16€</p>
+                </div>
+            </div>
+            <div class="dishes-container">
+                <h3 class="container-title">Desserts</h3>
+                <div class="dish-card">
+                    <figure>
+                        <img src="assets/Images/Menu/fondant chocolat.jpg" alt="fondant chocolat">
+                    </figure>
+                    <h4 class="dish-name">Fondant chocolat</h4>
+                    <p class="dish-description">Gâteau au chocolat au cœur fondant servi tiède.</p>
+                    <p class="price">6€</p>
+                </div>
+                <div class="dish-card">
+                    <figure>
+                        <img src="assets/Images/Menu/creme brule2.jpg" alt="creme brulée">
+                    </figure>
+                    <h4 class="dish-name">Crème brûlée</h4>
+                    <p class="dish-description">Crème vanillée recouverte d'une fine couche de caramel croquant.</p>
+                    <p class="price">5€</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="galery">
+        <h2 class="subtitle">Nos plats en images</h2>
+        <div class="galery-grid">
+            <img src="/assets/Images/daria-yakovleva-pancakes-2139844_1920.jpg" alt="" style="grid-area: img1;">
+            <img src="/assets/Images/pexels-elizabeth-zernetska-86424040-9001223.jpg" alt="" style="grid-area: img2;">
+            <img src="/assets/Images/pexels-iamabdullahsheik-9659594.jpg" alt="" style="grid-area: img3;">
+            <img src="/assets/Images/pexels-jack-baghel-2199968-20395295.jpg" alt="" style="grid-area: img4;">
+            <img src="/assets/Images/pexels-jack-baghel-2199968-20395295.jpg" alt="" style="grid-area: img5;">
+        </div>
+    </section>
+    <section id="usefull-info">
+        <h2 class="subtitle">Informations pratiques</h2>
+            <h3 class="sub-subtitle">Horaires</h3>
+        <ul>
+            <li>Lundi-Vendredi : 11h - 22h</li>
+            <li>Samedi : 11h - 23h</li>
+            <li>Dimanche : fermé</li>
+        </ul>
+        <address>
+            Saint-Denis,La Réunion
+        </address>
+    </section>
+    <section id="review">
+        <h2 class="subtitle">Avis clients</h2>
+        <div class="review-container">
+            <div class="review-card">
+                <img src="/assets/Images/pexels-jack-baghel-2199968-20395295.jpg" alt="" class="profile-picture">
+            <div class="star-rating"></div>
+            <p class="client-review">Excellent restaurant, service rapide et plats délicieux</p>
+            <p class="client-name">Sarah L.</p>
+            </div>
+            <div class="review-card">
+                <img src="/assets/Images/pexels-jack-baghel-2199968-20395295.jpg" alt="" class="profile-picture">
+
+            <div class="star-rating"></div>
+            <p class="client-review">Très bonne ambiance et cuisine savoureuse.</p>
+            <p class="client-name">Marc T.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="subtitle">Réserver une table</h2>
+        <p>Appeler-nous ou envoyer nous un message pour réserver votre table.</p>
+        <form action="">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name">
+            <label for="phone">Téléphone</label>
+            <input type="text" id="phone" name="phone">
+            <label for="guest">Nombre de personnes</label>
+            <input type="number" name="guest" id="guest">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Entrer votre message ici"></textarea>
+            <input type="submit" class="form-btn" value="Réserver maintenant">
+        </form>
+    </section>
+</body>
+</html>
