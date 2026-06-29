@@ -19,7 +19,7 @@ section{
 #hero{
     display: grid;
     background-color: var(--accent-color);
-    background-image: url(/assets/Images/pexels-metin-mutlu-3305420-8585881.jpg);
+    background-image: url(assets/Images/pexels-metin-mutlu-3305420-8585881.jpg);
     background-size:cover;
     background-position: bottom;
     border-image: linear-gradient(#91845033, #91845033) 1 fill;
